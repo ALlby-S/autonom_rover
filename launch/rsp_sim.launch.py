@@ -4,7 +4,6 @@ from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
-
 from launch_ros.actions import Node
 import xacro
 
@@ -42,10 +41,6 @@ def generate_launch_description():
                     arguments=['-topic', 'robot_description',
                                 '-entity', 'my_bot'],
                     output='screen')
-
-
-
-
 
 
     # Run the node
