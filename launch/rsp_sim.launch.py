@@ -12,7 +12,7 @@ def generate_launch_description():
 
     # Specify the name of the package and path to xacro file within the package
     pkg_name = 'autonom_rover'
-    file_subpath = 'description/rover.urdf.xacro'
+    file_subpath = 'description/autonomous_rover.urdf.xacro'
 
 
     # Use xacro to process the file
