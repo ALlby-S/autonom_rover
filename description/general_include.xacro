@@ -15,6 +15,9 @@
         <color rgba="0.2 0.2 1 1"/>
     </material>
 
+    <material name="red">
+        <color rgba=" 0.8 0.1 0.1 1"/>
+    </material>
 
 
     <!-- Specify some standard inertial calculations https://en.wikipedia.org/wiki/List_of_moments_of_inertia -->
