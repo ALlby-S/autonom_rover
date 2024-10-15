@@ -7,7 +7,7 @@
         <joint name="left_wheel_joint">
             <command_interface name="velocity">
                 <param name="min"> -10 </param>
-                <param name="max"> 10 </max>
+                <param name="max"> 10 </param>
             </command_interface>
 
             <state_interface name="velocity"/>
@@ -17,7 +17,7 @@
         <joint name="right_wheel_joint">
             <command_interface name="velocity">
                 <param name="min"> -10 </param>
-                <param name="max"> 10 </max>
+                <param name="max"> 10 </param>
             </command_interface>
 
             <state_interface name="velocity"/>
@@ -29,4 +29,5 @@
         <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
             <parameters>$(find autonom_rover)/config/my_controllers.yaml </parameters>
         </plugin>
+    </gazebo>
 </robot>

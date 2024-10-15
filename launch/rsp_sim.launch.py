@@ -47,5 +47,5 @@ def generate_launch_description():
     return LaunchDescription([
         gazebo,
         node_robot_state_publisher,
-        spawn_entity
+        # spawn_entity
     ])

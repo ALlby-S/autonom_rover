@@ -18,4 +18,4 @@ diff_cont:
   wheel_separation: 0.14
   wheel_radius: 0.0175
 
-  use_stamed_vel:false
+  use_stamed_vel: false
