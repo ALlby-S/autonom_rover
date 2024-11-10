@@ -1,3 +1,6 @@
+<!-- This file is the central assembly for the robot, we can attach different modules to make up the robot to be used by ROS2
+    For example, we can attach sensors here, making it very modular, if we had another file for Ultrasonic sensors, 
+    we could place it below -->
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rover">    
     
