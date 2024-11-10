@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rover">
-
-    <xacro:include filename="ros2_control.xacro"/>
-    <xacro:include filename="rover.xacro"/>
-    <!-- <xacro:include filename="gazebo_control.xacro"/> -->
-    <xacro:include filename="lidar.xacro"/>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rover">    
+    
+    <!-- <xacro:include filename="ros2_control.xacro"/> --> <!--  Commented out, could not get ros2_cotnrol to work -->
+    <xacro:include filename="rover.xacro"/> <!--Attach rover 3D specifications-->
+    <xacro:include filename="gazebo_control.xacro"/> <!--Manual control for simulated robot-->
+    <xacro:include filename="lidar.xacro"/> <!--Attach LiDAR Component-->
 </robot>
