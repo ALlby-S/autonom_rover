@@ -11,5 +11,5 @@ All ROS2 files required for the simulation and ROS2 setup are found here, the ge
 
 
 ## Arduino Motor Control
-Files remained on the Arduino and the RPi that was handed into the university at the end of the demonstration, this inlcuded the PID tuning and custom pin values for the circuit, the files were based on [this repository] (https://github.com/joshnewans/serial_motor_demo.git).
+Files remained on the Arduino and the RPi that was handed into the university at the end of the demonstration, this inlcuded the PID tuning and custom pin values for the circuit, the files were based on [this repository](https://github.com/joshnewans/serial_motor_demo.git).
 Please Consult the final report for the detailed circuit schematic and PID tuning process and values used.
