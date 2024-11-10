@@ -23,6 +23,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+##### This is the main line we are concerned with, tells ROS2 where our files can be found #####
 install(
   DIRECTORY description launch worlds config
   DESTINATION share/${PROJECT_NAME}

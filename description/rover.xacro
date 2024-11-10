@@ -1,3 +1,5 @@
+<!-- This file describes the robot's geometry, inertia's, materials (colours) so that Gazebo and RViz2 
+    can render and simulate the robot accurately -->
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     

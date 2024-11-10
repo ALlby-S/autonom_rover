@@ -1,3 +1,5 @@
+<!-- Here we create the 3D model for the LiDAR to attach to the digital twin of our robot.
+We setup the behaviour of the LiDAR e.g. scan range, samples per rev -->
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     <joint name="lidar_joint" type="fixed">

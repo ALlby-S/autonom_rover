@@ -1,11 +1,15 @@
+#setup ros2 controller manager and differential controller
+
 controller_manager:
   ros__parameters:
     update_rate: 30
     use_sim_time: true
-
+    
+    #differential controller setup
     diff_cont:
       type: diff_drive_controller/DiffDriveController
 
+    #joint state broadcaster setup
     joint_broad:
       type: joint_state_broadcaster/JointStateBroadcaster
 

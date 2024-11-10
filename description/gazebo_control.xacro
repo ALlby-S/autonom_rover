@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-    <!-- Set up plugin so Gazebo can control joints -->
+    <!-- Set up plugin so Gazebo can control joints, here we set up a differential drive robot -->
     <gazebo>
         <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
         <!-- Information on wheels -->
